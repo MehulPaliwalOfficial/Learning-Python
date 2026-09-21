@@ -54,3 +54,7 @@
 
 print(7>>1)
 print(16&1)
+print(not 0)
+print(not 1)
+print(0.1+0.2)
+print(0.1+0.2==0.3)
