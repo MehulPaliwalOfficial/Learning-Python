@@ -52,9 +52,15 @@
 # print(bin(3 | 2))
 # print(bin(3 or 1))
 
-print(7>>1)
-print(16&1)
-print(not 0)
-print(not 1)
-print(0.1+0.2)
-print(0.1+0.2==0.3)
+# print(7>>1)
+# print(16&1)
+# print(not 0)
+# print(not 1)
+# print(0.1+0.2)
+# print(0.1+0.2==0.3)
+
+# import sys
+# print(sys.float_info.max)
+# print(sys.float_info.dig)
+
+print(round(0.1+0.2, 1) == 0.3)
