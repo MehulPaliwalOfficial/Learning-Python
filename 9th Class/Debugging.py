@@ -14,7 +14,7 @@ def audit_inventory(products, user_flags):
     Returns   : set of flagged SKU IDs requiring manual review
     """
     # ── 1. Verify the calling user has admin access ──────────────
-    if user_flags & ADMIN_BIT != 0:     #user and admin has value 1 and anything else is any natural number, so != 0 must be answer
+    if (user_flags & ADMIN_BIT) > 0:     #user and admin has value 1 and anything else is any natural number, so != 0 must be answer
         print("Full audit access granted")
     else:
         print("Limited access — read-only mode")
