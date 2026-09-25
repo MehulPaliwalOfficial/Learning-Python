@@ -27,3 +27,13 @@
 # o = "mehul"
 # print(id(m), id(n), id(o))
 
+# print(hash("Mehul"))
+
+# l = [1,2,4,5]
+# print(id(l))
+# l2 = [11,33]
+# l.append(l2)
+# print(id(l))
+# print(l)
+# l2.append(999)
+# print(l)
