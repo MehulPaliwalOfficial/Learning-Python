@@ -28,19 +28,19 @@
 
 # print(y)
 
-marks = int(input("Enter marks: "))
+# marks = int(input("Enter marks: "))
 
-if marks > 90 and marks < 100:
-    print("A")
-elif marks > 80 and marks < 100:
-    print("B")
-elif marks > 70 and marks < 100:
-    print("C")
-elif marks > 60 and marks < 100:
-    print("D")
-elif marks > 50 and marks < 100:
-    print("E")
-elif marks > 100:
-    print("Invalid")
-else:
-    print("F")
+# if marks > 90 and marks < 100:
+#     print("A")
+# elif marks > 80 and marks < 100:
+#     print("B")
+# elif marks > 70 and marks < 100:
+#     print("C")
+# elif marks > 60 and marks < 100:
+#     print("D")
+# elif marks > 50 and marks < 100:
+#     print("E")
+# elif marks > 100:
+#     print("Invalid")
+# else:
+#     print("F")
