@@ -34,16 +34,18 @@
 #         break
 #     print("you said:", cmd)
 
-# ATM 1234
-attempts = 5
-while True:
-    password = input("Enter your password: ")
-    if password == "1234":
-        print("Welcome!")
-        break
-    elif password != "1234":
-        attempts -= 1
-        print("Incorrect password. You have", attempts, "attempts left.")
-    if attempts == 0:
-        print("Account locked")
-        break
+# # ATM 1234
+# attempts = 5
+# while True:
+#     password = input("Enter your password: ")
+#     if password == "1234":
+#         print("Welcome!")
+#         break
+#     elif password != "1234":
+#         attempts -= 1
+#         print("Incorrect password. You have", attempts, "attempts left.")
+#     if attempts == 0:
+#         print("Account locked")
+#         break
+
+
