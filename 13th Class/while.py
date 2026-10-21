@@ -15,6 +15,7 @@
 #             print(n//i)
 #     i +=1
 
+# Count Method
 # n = int(input())
 # i = 1
 # factor_count = 0
@@ -26,6 +27,23 @@
 #     print(n, "is a prime number")
 # else:
 #     print(n, "is not a prime number")
+
+# Flag Method
+# n = int(input())
+# is_prime = True
+# if n <= 1:
+#     is_prime = False
+# else:
+#     i = 2
+#     while i < n:
+#         if n % i == 0:
+#             is_prime = False
+#         i += 1
+# if is_prime == True:
+#     print(n, "is a prime number")
+# else:
+#     print(n, "is not a prime number")
+
 
 # n = int(input())
 # p = 0
